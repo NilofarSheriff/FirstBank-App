@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "Verify";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="background:url(/images/1.jpg);">
+    <h1>Welcome @ViewBag.Name</h1>
+
+<h3>Dashboard</h3>
+
+<div class="container">
+    <a asp-area="" asp-controller="Account" asp-action="Balance">Check Balance</a>
+    <a asp-area="" asp-controller="Account" asp-action="Deposit">Deposit</a>
+    <a asp-area="" asp-controller="Account" asp-action="Fund Transfer">Transfer</a>
+    <a asp-area="" asp-controller="Account" asp-action="Login">Logout</a>
+
+</div>
+</div>
+
